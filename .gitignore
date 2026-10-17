@@ -7,7 +7,10 @@ __pycache__/
 .venv/
 venv/
 
-# Local output and editor files
-quotes.csv
+# Generated scraper output (keep the curated sample file)
+*.csv
+!sample_output.csv
+
+# Local editor files
 .vscode/
 .idea/
